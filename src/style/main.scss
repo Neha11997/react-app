@@ -2,11 +2,10 @@
 @import './base/fonts';
 @import './base/base';
 @import './base/typography';
-@import './base/utility';
+@import './base/utitlity';
 
 @import './layout/containers';
-@import './layout/form';
+@import './components/forms';
+@import './components/input';
 
-@import './components/buttons';
-
-@import './pages/home';
+@import './components/button';
