@@ -1,0 +1,62 @@
+@import '../abstract/imports';
+
+.d-flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-align-center {
+  align-items: center;
+}
+.flex-justify-center{
+    justify-content: center;
+}
+.col-50 {
+  width: 50%;
+  flex-basis: 50%;
+}
+.flex-1 {
+  flex-grow: 1;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+.primary-text {
+    color: $primary-color;
+}
+.dark-text {
+    color: $dark-gray;
+}
+.text-bold {
+    font-weight: 900;
+}
+
+.width-md-90 {
+    @include respond-above(md) {
+        max-width: 90%;
+    }
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.text-center {
+    text-align: center;
+}
+.line-h{
+    line-height: 2.3rem;
+}
